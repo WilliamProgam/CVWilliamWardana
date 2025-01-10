@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Price Prediction Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Crypto Price Prediction Game</h1>
+    
+    <canvas id="cryptoChart"></canvas>
+
+    <p>Tebak Harga Akan Naik Atau Turun</p>
+    
+    <div id="controls">
+      <button id="predict-up">Naik</button>
+      <button id="predict-down" color="red">Turun</button>
+    </div>
+
+    <p id="result"></p>
+    <p id="score">Skor: 0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

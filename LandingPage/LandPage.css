@@ -1,0 +1,145 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #364f6b;
+}
+.menu{
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #fff;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+a.tombolbiru{
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+    background: #3f72af;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+a.tombolbiru:hover{
+    background: pink;
+    text-decoration: none;
+}
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.column {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+    color: #364f6b;
+}
+.column .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+    color: #364f6b;
+}
+h2 {
+    font-family: 'open sans', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+a.tombolabu {
+    background: #3f72af;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombolabu:hover {
+    text-decoration: none;
+    background:#ccc;
+}
+
+p {
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutorlist {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartututor {
+    width: 20px;
+    margin: auto;
+}
+
+.kartututor img { 
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartututor p {
+    font-family: 'open sans',sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
